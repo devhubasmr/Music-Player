@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Dev Hub Asmr</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/657de39a82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container-background">
+            <img src="cover/sddefault.jpg" alt="" id="backgroundImage" class="container-background-image">
+
+        </div>
+        <div class="card-wrapper">
+            <div class="music-card">
+                <div class="card-content">
+                    <img src="cover/sddefault.jpg"  class="music-image">
+                    <div class="music-info">
+                        <h2 class="music-name">Losing My Mind</h2>
+                        <p class="music-artist">NEFFEX</p>
+                    </div>
+                    <audio src="music/Losing My Mind.mp3"></audio>
+                    <div class="music-progress">
+                        <div id="progress-bar" class="progress-bar"></div>
+                        <div class="progress-time">
+                            <span class="time-item current-time">00:00</span>
+                            <span class="time-item duration-time">00:00</span>
+                        </div>
+                    </div>
+                    <div class="music-controls">
+                        <div id="prev" class="controls-item">
+                            <i class="fas fa-backward item-icon"></i>
+                        </div>
+                        <div id="play" class="controls-item">
+                            <i class="fas fa-play play-icon item-icon"></i>
+                            <div class="play-icon-background"></div>
+                        </div>
+                        <div id="next" class="controls-item">
+                            <i class="fas fa-forward item-icon"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
